@@ -30,6 +30,7 @@ if (create_tile_now = 1){
 	
 	//only fills tiles if the tile created isnt empty
 	if (tile_choose = obj_platform_tile) {
+		scr_obsticle_tiles();
 		scr_fillin_tiles();
 	}
 	

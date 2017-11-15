@@ -13,7 +13,8 @@
         "cb0f598b-1b83-4405-979e-4226c1902ffb",
         "d62b3b31-b58b-4222-8ab1-126116d9447f",
         "476c41d6-6f4d-4870-9ea7-affdda1eda13",
-        "4bf01944-c28b-4114-8da0-1b0f3ef49d8b"
+        "4bf01944-c28b-4114-8da0-1b0f3ef49d8b",
+        "7458e7e2-76ff-430c-806a-640276546ced"
     ],
     "filterType": "GMSprite",
     "folderName": "Ground Sprites",

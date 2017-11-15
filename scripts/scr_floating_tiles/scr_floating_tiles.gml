@@ -1,13 +1,13 @@
 //creates floating land platforms
 
-var create_tile = choose(1,2,2,2);
+var create_tile = choose(1,2);
 
 if (create_tile = 1){
 	if (previous_main_tile.y >= 384) {
 		var yy= (((previous_main_tile.y div 64) div 2) + choose(0,0,1,2)) * (64 * choose(-1,1));
 		
 		//determine floating tile
-		var floating_type = choose(1,2,3,4);
+		var floating_type = choose(1,1,1,1,1,2,3,4);
 		
 		if floating_type = 1 {
 			previous_floating_tile = instance_create_layer(previous_main_tile.x,yy,"Instances",obj_platform_tile);
