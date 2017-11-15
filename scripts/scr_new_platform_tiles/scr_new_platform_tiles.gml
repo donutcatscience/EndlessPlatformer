@@ -32,5 +32,8 @@ if (create_tile_now = 1){
 	if (tile_choose = obj_platform_tile) {
 		scr_fillin_tiles();
 	}
+	
+	//run script to create floating tiles
+	scr_floating_tiles();
 	create_tile_now = 0;
 }

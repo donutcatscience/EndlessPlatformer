@@ -1,7 +1,7 @@
 /// @description Loads initial starting platform
 
 previous_main_tile = 0;
-current_main_tile = 0;
+previous_floating_tile = 0;
 create_tile_now = 0;
 
 
