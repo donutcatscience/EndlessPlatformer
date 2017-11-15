@@ -1,33 +1,43 @@
-//resets movement every step to prevent creep
-moveX = 0;
-moveY = 0;
-
+//handles collision
 
 //gets movement X values to make sure there are no issues with simultanious key presses
 moveX = (inputRight - inputLeft) * player_speed;
 
-//horizontal collision check 
-if (moveX != 0){
-	if (place_meeting((x + moveX), y, obj_safe_parent)){
-		repeat (abs(moveX)){ 
-			if (!place_meeting((x + sign(moveX)), y, obj_safe_parent)){
-				x += sign(moveX); //reduces movement down to one pixel and then adds sum to move
-			}
-			else {
-				break;
-			}
-		}
-		moveX = obj_room_controller.level_speed;
-	}
+if (moveY < 25) {
+	moveY += grav;
 }
 
-//verticle collision check 
-if !place_meeting(x,y + 1,obj_safe_parent) {
-	gravity = .01;
+if (place_meeting(x,y+1,obj_safe_parent)) {
+	moveY = inputUp * -jump_speed;
 }
-else {
-	gravity = 0.0;
+
+if (place_meeting(x+moveX,y,obj_safe_parent)) {
+	while (!place_meeting(x+sign(moveX),y,obj_safe_parent)) {
+		x += sign(moveX);
+	}
+	moveX = obj_room_controller.level_speed;
 }
+x += moveX;
+
+if (place_meeting(x,y+moveY,obj_safe_parent)) {
+	while (!place_meeting(x,y+sign(moveY),obj_safe_parent)) {
+		y += sign(moveY);
+	}
+	moveY = 0;
+}
+y += moveY;
+
+
+
+
+
+
+
+
+
+
+
+
 
 ////foot steps when player moves
 //if (foot_steps >= 10) && ((moveX != 0) || (moveY != 0)) {
