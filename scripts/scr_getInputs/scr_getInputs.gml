@@ -9,5 +9,6 @@ inputDown = max(keyboard_check(ord("S")), 0);
 
 //attack
 inputShoot = mouse_check_button_pressed(mb_left);
+if (inputShoot) scr_player_shoot();
 
 scr_collisionAndMove();

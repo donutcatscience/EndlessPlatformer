@@ -1,42 +1,32 @@
 {
-    "id": "2b099aad-28b0-4314-ae4b-ba2ae86025c2",
+    "id": "bd639e06-8cd9-4e2a-95aa-3029f4fb214a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_poo_fly",
+    "name": "obj_player_gun",
     "eventList": [
         {
-            "id": "c9af7dfd-7c12-42cb-99dc-a92cd09765a9",
+            "id": "4be1b77c-c742-41c1-a8d1-1dc9aa117290",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "2b099aad-28b0-4314-ae4b-ba2ae86025c2"
+            "m_owner": "bd639e06-8cd9-4e2a-95aa-3029f4fb214a"
         },
         {
-            "id": "107accca-d8e4-48d7-87d2-c565167e5ddf",
+            "id": "298709b6-6e04-4e14-86ab-e0073bf7a611",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "2b099aad-28b0-4314-ae4b-ba2ae86025c2"
-        },
-        {
-            "id": "26396424-552d-41c9-b1a1-e6139ebf3f23",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "dec1cf38-6752-437b-83c7-86a589916cdb",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "2b099aad-28b0-4314-ae4b-ba2ae86025c2"
+            "m_owner": "bd639e06-8cd9-4e2a-95aa-3029f4fb214a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "1f87b29e-f6a5-4b21-84fb-64d39e348e82",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -51,6 +41,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "5bffd2c4-5f3e-4b98-bc09-0c08a12769b0",
+    "spriteId": "62c55ceb-6526-435e-a192-bd06234ecbde",
     "visible": true
 }

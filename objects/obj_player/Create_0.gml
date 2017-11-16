@@ -15,7 +15,7 @@ grav = 1.5;
 jump_speed =25;
 
 //gun variables
-fire_weapon = 0;
+can_shoot = true;
 
 //animation variables
 player_current_sprite = spr_player_walk;
@@ -29,5 +29,8 @@ enum player_state {
 	//shoot,
 	//hurt
 }
-
+//load starting state
 current_state = player_state.walk;
+
+//create gun
+instance_create_layer(x+26,y-26,"PlayerWeapons",obj_player_gun);

@@ -17,6 +17,12 @@ if (place_meeting(x+moveX,y,obj_safe_parent)) {
 	}
 	moveX = obj_room_controller.level_speed;
 }
+if (moveX < 0){
+	image_xscale = -player_scale;
+}
+else {
+	image_xscale = player_scale;
+}
 x += moveX;
 
 if (place_meeting(x,y+moveY,obj_safe_parent)) {

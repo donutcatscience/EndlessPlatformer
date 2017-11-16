@@ -12,3 +12,4 @@ switch (current_state){
 	//jump
 	//hurt
 }
+can_shoot = true;
