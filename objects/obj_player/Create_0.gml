@@ -6,7 +6,7 @@ image_xscale = player_scale;
 image_yscale = player_scale;
 
 
-player_speed = 5;
+player_speed = 8;
 current_player_speed = 0;
 moveX = 0;
 moveY = 0;

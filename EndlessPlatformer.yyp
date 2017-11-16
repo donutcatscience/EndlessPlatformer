@@ -287,10 +287,26 @@
             }
         },
         {
+            "Key": "3ec909f4-017e-4627-af66-85ff7dbab1cb",
+            "Value": {
+                "id": "50a442f7-2813-4269-a3fb-a3a1f04e1e9d",
+                "resourcePath": "sounds\\mus_main\\mus_main.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "40ff3d79-7d3a-4494-997b-97f952404b05",
             "Value": {
                 "id": "79afd4f6-da8e-47a3-8bd4-72fee94b9f6e",
                 "resourcePath": "views\\40ff3d79-7d3a-4494-997b-97f952404b05.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "43339683-0e57-4e82-a768-6270e4145e9a",
+            "Value": {
+                "id": "fdc48da5-d3a8-44a1-a248-26bdd8b8cce5",
+                "resourcePath": "views\\43339683-0e57-4e82-a768-6270e4145e9a.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -315,6 +331,14 @@
             "Value": {
                 "id": "7baa0390-a906-4064-91ab-61b2bc6cb87f",
                 "resourcePath": "sounds\\snd_bomb_explode\\snd_bomb_explode.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "467c6dd5-dced-4f1c-9b1c-593c2ba51528",
+            "Value": {
+                "id": "99886bbf-f35e-4ffa-81cf-63bd7783b5db",
+                "resourcePath": "sounds\\mus_win\\mus_win.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -396,6 +420,14 @@
                 "id": "9457b1ba-4b2d-4f71-a551-4d5f1dee7113",
                 "resourcePath": "objects\\obj_platform_builder\\obj_platform_builder.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "52f35a9e-058d-4681-a995-1921467db32e",
+            "Value": {
+                "id": "68114805-5206-43e9-b475-93473c426a05",
+                "resourcePath": "fonts\\fnt_UI\\fnt_UI.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -587,6 +619,14 @@
             "Value": {
                 "id": "e6ad6973-b583-4f51-beaf-f751d4e3e74a",
                 "resourcePath": "objects\\obj_coin\\obj_coin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "82eec25a-a8e5-431b-a60e-c87a0ed03b74",
+            "Value": {
+                "id": "4242abfe-4801-4bc0-a897-bf45406cecbf",
+                "resourcePath": "objects\\obj_door\\obj_door.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -783,6 +823,14 @@
             }
         },
         {
+            "Key": "c679e0ef-6b1c-4acb-94d2-657384ee91cd",
+            "Value": {
+                "id": "f8132a35-e59c-42a8-bc16-258c62f426ef",
+                "resourcePath": "views\\c679e0ef-6b1c-4acb-94d2-657384ee91cd.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c6f2387e-2d7b-4956-9ac0-b4d2f9d376fc",
             "Value": {
                 "id": "8767f5c0-67f9-430d-be86-e61045e6144f",
@@ -804,6 +852,14 @@
                 "id": "f2f122cd-64bd-4625-a6a9-02abb600e58c",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd98c720-4b07-4402-b13f-f5ccc5ed2d32",
+            "Value": {
+                "id": "9235819f-7123-4a39-835a-11e96f5de992",
+                "resourcePath": "objects\\obj_gui\\obj_gui.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -836,6 +892,14 @@
                 "id": "a0193cf5-0abb-4bbb-ae26-5515cc83dbf0",
                 "resourcePath": "scripts\\scr_floating_obsticle_tiles\\scr_floating_obsticle_tiles.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "de8bde4a-7ff4-45d1-b07a-dd4eda9ac855",
+            "Value": {
+                "id": "883fafeb-692c-4769-9470-e82582493087",
+                "resourcePath": "sprites\\spr_door\\spr_door.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
