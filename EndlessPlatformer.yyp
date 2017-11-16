@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "009c4ef0-046a-4765-b828-faa035127998",
+            "Value": {
+                "id": "36c7e16d-c995-45ae-8c4a-4fab2f1f3002",
+                "resourcePath": "sprites\\spr_explosion\\spr_explosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0456fda9-a3be-4866-bed8-0c5dceb0f8ee",
+            "Value": {
+                "id": "a8f39e46-7e7a-4d14-8899-705a22caf0f7",
+                "resourcePath": "sprites\\spr_bomb\\spr_bomb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "066f8292-5792-4048-9da2-4d8d5adce5f5",
             "Value": {
                 "id": "2dc50c29-220f-49f5-ae8e-49f4a22bc1a1",
@@ -155,6 +171,14 @@
             "Value": {
                 "id": "1e70a0c1-cba3-40d0-acee-f9abe9aed1db",
                 "resourcePath": "objects\\obj_empty_tile\\obj_empty_tile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "26f91e9c-569d-4e27-a3e7-66f427f41bdf",
+            "Value": {
+                "id": "e05b7b6f-2213-47a8-9805-0bdd6190fddb",
+                "resourcePath": "objects\\obj_enemies_cant_destroy\\obj_enemies_cant_destroy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -447,6 +471,14 @@
             }
         },
         {
+            "Key": "7279404d-762f-4bfb-b0f8-b239db9d14d6",
+            "Value": {
+                "id": "180d02b9-b754-4522-9e4d-1efe1db67950",
+                "resourcePath": "objects\\obj_hit_flash\\obj_hit_flash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7458e7e2-76ff-430c-806a-640276546ced",
             "Value": {
                 "id": "7e123a0d-2e0e-4d5b-aec1-2704d6b09c7f",
@@ -487,6 +519,14 @@
             }
         },
         {
+            "Key": "81a3658b-ba5c-4ddf-bc50-df88612c2577",
+            "Value": {
+                "id": "ff6170ba-0dcb-4dac-8f54-33bd88393e32",
+                "resourcePath": "objects\\obj_bomb\\obj_bomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8248094d-74f0-4e13-8d78-b8db904cd489",
             "Value": {
                 "id": "e6ad6973-b583-4f51-beaf-f751d4e3e74a",
@@ -500,6 +540,14 @@
                 "id": "d3753476-47f1-4076-8436-b6a53deba5ae",
                 "resourcePath": "scripts\\scr_fillin_tiles\\scr_fillin_tiles.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "851a2fad-f93d-4592-a41f-a6347750ccf1",
+            "Value": {
+                "id": "5392bda9-7860-40d5-8319-2b3e528789d9",
+                "resourcePath": "objects\\obj_explosion\\obj_explosion.yy",
+                "resourceType": "GMObject"
             }
         },
         {
