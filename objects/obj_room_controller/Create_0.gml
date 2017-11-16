@@ -2,6 +2,7 @@
 
 randomize();
 audio_play_sound(mus_main,5,true);
+win = false;
 
 //sets platform speed for all tile objects
 level_speed = -3;

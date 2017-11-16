@@ -4,6 +4,11 @@ if keyboard_check_pressed(vk_backspace) {
 	room_restart();
 }
 
+if keyboard_check_pressed(vk_escape) {
+	audio_stop_sound(mus_main);
+	room_goto_previous();
+}
+
 if (!instance_exists(obj_player)) audio_stop_sound(mus_main);
 
 if (obj_gui.time = room_speed * 45) {
