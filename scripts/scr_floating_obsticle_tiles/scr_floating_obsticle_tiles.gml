@@ -3,7 +3,7 @@
 var floating_obsticle = choose(1,2,2,2);
 
 if (floating_obsticle = 1){
-	var floating_type = choose(1,2,3,4);
+	var floating_type = choose(1,2,3,4,4,4,);
 	
 	if (floating_type = 1){
 		floating_type = obj_small_enemy;

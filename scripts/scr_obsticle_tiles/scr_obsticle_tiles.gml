@@ -3,7 +3,7 @@
 var obsticle = choose(1,2,2,2,2);
 
 if (obsticle = 1){
-	var type = choose(1,2,3,4);
+	var type = choose(1,2,3,4,4,4);
 	
 	if (type = 1){
 		type = obj_small_enemy;
