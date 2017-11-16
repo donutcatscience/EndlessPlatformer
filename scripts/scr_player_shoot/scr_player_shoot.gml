@@ -10,6 +10,7 @@ if (instance_exists(obj_player)) {
 		var laser = instance_create_layer(xx,yy,"PlayerWeapons",obj_laser);
 		laser.direction = fire_angle;
 		laser.image_angle = fire_angle;
+		audio_play_sound(snd_laser,1,false);
 		can_shoot = false;
 	}
 }

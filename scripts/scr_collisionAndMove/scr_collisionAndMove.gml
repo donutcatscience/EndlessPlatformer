@@ -7,8 +7,9 @@ if (moveY < 25) {
 	moveY += grav;
 }
 
-if (place_meeting(x,y+1,obj_safe_parent)) {
+if (place_meeting(x,y+1,obj_safe_parent)) && (inputUp) {
 	moveY = inputUp * -jump_speed;
+	audio_play_sound(snd_player_jump,1,false);
 }
 
 if (place_meeting(x+moveX,y,obj_safe_parent)) {
@@ -32,16 +33,6 @@ if (place_meeting(x,y+moveY,obj_safe_parent)) {
 	moveY = 0;
 }
 y += moveY;
-
-
-
-
-
-
-
-
-
-
 
 
 
